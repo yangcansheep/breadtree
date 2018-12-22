@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="mustang" defaultModelType="flat" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressDate" value="false"/>
+            <!-- 是否去除自动生成的注释 -->
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+        <!-- 数据库连接信息 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://172.30.16.2/rait_online"
+                        userId="rait_online"
+                        password="rait_online"/>
+
+        <!--&lt;!&ndash; 默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer，为 true时把JDBC DECIMAL 和-->
+        <!--NUMERIC 类型解析为java.math.BigDecimal &ndash;&gt;-->
+        <!--<javaTypeResolver>-->
+        <!--<property name="forceBigDecimals" value="false"/>-->
+        <!--</javaTypeResolver>-->
+
+
+        <!-- 生成 po 类的位置-->
+        <javaModelGenerator targetPackage="deer.dao.entity" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <!-- 从数据库返回的值，清理空格-->
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <!-- mapper 接口生成的位置 -->
+        <sqlMapGenerator targetPackage="mapping"
+                         targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator targetPackage="deer.dao.mapper"
+                             targetProject="src/main/java" type="XMLMAPPER">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <table tableName="PM_TASK_HISTORY" domainObjectName="TaskHistory"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+
+    </context>
+</generatorConfiguration>
