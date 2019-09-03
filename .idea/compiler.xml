@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="deer-dao" />
-        <module name="deer-service" />
-        <module name="deer-start" />
-        <module name="deer-utils" />
+        <module name="soldier-dao" />
+        <module name="soldier-service" />
+        <module name="soldier-start" />
+        <module name="soldier-utils" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="soldier" target="1.8" />
+      <module name="soldier-dao" target="1.8" />
+      <module name="soldier-service" target="1.8" />
+      <module name="soldier-start" target="1.8" />
+      <module name="soldier-utils" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

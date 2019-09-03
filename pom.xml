@@ -4,15 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sheep</groupId>
-    <artifactId>sheep</artifactId>
+    <groupId>soldier</groupId>
+    <artifactId>soldier</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>deer-dao</module>
-        <module>deer-service</module>
-        <module>deer-start</module>
-        <module>deer-utils</module>
+        <module>soldier-dao</module>
+        <module>soldier-service</module>
+        <module>soldier-start</module>
+        <module>soldier-utils</module>
     </modules>
 
     <!-- 继承 springboot -->
@@ -70,23 +70,23 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>sheep</groupId>
-                <artifactId>deer-utils</artifactId>
+                <groupId>soldier</groupId>
+                <artifactId>soldier-utils</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>sheep</groupId>
-                <artifactId>deer-start</artifactId>
+                <groupId>soldier</groupId>
+                <artifactId>soldier-start</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>sheep</groupId>
-                <artifactId>deer-service</artifactId>
+                <groupId>soldier</groupId>
+                <artifactId>soldier-service</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>sheep</groupId>
-                <artifactId>deer-dao</artifactId>
+                <groupId>soldier</groupId>
+                <artifactId>soldier-dao</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
@@ -146,6 +146,7 @@
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
