@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="683593ee-c89f-4bb6-98a3-478b5678494d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soldier-service/src/main/java/com.soldier.service/caseset/CaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soldier-service/src/main/java/com.soldier.service/caseset/impl/CaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soldier-service/src/main/java/com.soldier.service/common/CaseRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soldier-service/src/main/java/com.soldier.service/common/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soldier-start/src/main/java/com/soldier/start/controller/CaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soldier-start/src/main/java/com/soldier/start/model/CorsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soldier-start/src/main/java/com/soldier/start/model/JsonData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soldier-utils/src/mian/java/com/soldier/http/HttpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soldier-utils/src/mian/java/com/soldier/http/HttpUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/soldier-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-dao/soldier-dao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/src/main/java/com/rokid/soldier/dao/entity/TaskHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/src/main/java/com/rokid/soldier/dao/entity/TaskHistoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/src/main/java/com/rokid/soldier/dao/mapper/TaskHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-dao/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/src/main/resources/mapping/TaskHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/com/rokid/soldier/dao/entity/TaskHistory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/com/rokid/soldier/dao/entity/TaskHistoryExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/com/rokid/soldier/dao/entity/TaskHistoryExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/com/rokid/soldier/dao/entity/TaskHistoryExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/com/rokid/soldier/dao/entity/TaskHistoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/com/rokid/soldier/dao/mapper/TaskHistoryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-dao/target/classes/generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/mapping/TaskHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-service/soldier-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-service/soldier-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-start/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-start/soldier-start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-start/soldier-start.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soldier-start/src/main/java/com/SoldierApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-start/src/main/java/com/SoldierApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-start/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-start/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier-start/target/classes/com/SoldierApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-start/target/classes/com/SoldierApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-start/src/main/java/com/soldier/start/controller/CaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-start/src/main/java/com/soldier/start/controller/CaseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soldier-utils/soldier-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-utils/soldier-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soldier.iml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +28,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/soldier-service/src/main/java/com.soldier.service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/soldier-utils/src/mian/java/com/soldier" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/soldier-utils/src/mian/java/com/soldier" />
       <recent name="$PROJECT_DIR$/soldier-service/src/main/java/com.soldier.service" />
       <recent name="$PROJECT_DIR$/soldier-start/src/main/java/com/soldier/start" />
       <recent name="$PROJECT_DIR$/soldier-service/src/main/java/com/soldier/service/caseset/service" />
@@ -185,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590993616097</updated>
-      <workItem from="1590993618791" duration="2373000" />
+      <workItem from="1590993618791" duration="2951000" />
     </task>
     <servers />
   </component>

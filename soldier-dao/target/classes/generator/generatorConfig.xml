@@ -12,9 +12,9 @@
         </commentGenerator>
         <!-- 数据库连接信息 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://10.57.30.217/yc"
-                        userId="zhy"
-                        password="zhy"/>
+                        connectionURL="jdbc:mysql://*.*.*.*/database"
+                        userId="userId"
+                        password="password"/>
 
         <!-- 生成 po 类的位置-->
         <javaModelGenerator targetPackage="com.soldier.dao.entity" targetProject="src/main/java">
