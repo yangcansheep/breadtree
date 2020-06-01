@@ -38,6 +38,14 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
         </dependency>
+        <dependency>
+            <groupId>soldier</groupId>
+            <artifactId>soldier-dao</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>soldier</groupId>
+            <artifactId>soldier-service</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

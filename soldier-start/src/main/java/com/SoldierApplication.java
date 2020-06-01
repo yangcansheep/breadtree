@@ -15,7 +15,7 @@ import javax.servlet.MultipartConfigElement;
 @Slf4j
 @RestController
 @SpringBootApplication
-@MapperScan("com.rokid.soldier.dao.mapper")
+@MapperScan("com.soldier.dao.mapper")
 public class SoldierApplication {
 
 	public static void main(String[] args) {

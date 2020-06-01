@@ -3,9 +3,9 @@ server:
 spring:
   datasource:
     name: databaseName
-    url: jdbc:mysql://*.*.*.*/databaseName?useUnicode=true&characterEncoding=utf-8
-    username: databaseName
-    password: databaseName
+    url: jdbc:mysql://*.*.*.*/database?useUnicode=true&characterEncoding=utf-8
+    username: username
+    password: password
     # 使用 druid 数据源
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver

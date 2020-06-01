@@ -1,84 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/GravityTeam/RokidAiCloudApp" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/ROKID_APG_Translate" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/RokidActivation" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/RokidAiCloudApp" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/RokidAiSdk" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/rokid-ar-glass-launcher" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/rokid_apg_settings" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/rokid_sdk_cameramodule" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../RKAiSdk" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../rokidaisdktest" value="PREVIEW" />
-      </map>
-    </option>
+  <component name="ChangeListManager">
+    <list default="true" id="683593ee-c89f-4bb6-98a3-478b5678494d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soldier-service/src/main/java/com.soldier.service/caseset/CaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soldier-service/src/main/java/com.soldier.service/caseset/impl/CaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soldier-service/src/main/java/com.soldier.service/common/CaseRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soldier-service/src/main/java/com.soldier.service/common/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soldier-start/src/main/java/com/soldier/start/controller/CaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soldier-start/src/main/java/com/soldier/start/model/CorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soldier-start/src/main/java/com/soldier/start/model/JsonData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/soldier-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-dao/soldier-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/src/main/java/com/rokid/soldier/dao/entity/TaskHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/src/main/java/com/rokid/soldier/dao/entity/TaskHistoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/src/main/java/com/rokid/soldier/dao/mapper/TaskHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-dao/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/src/main/resources/mapping/TaskHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/com/rokid/soldier/dao/entity/TaskHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/com/rokid/soldier/dao/entity/TaskHistoryExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/com/rokid/soldier/dao/entity/TaskHistoryExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/com/rokid/soldier/dao/entity/TaskHistoryExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/com/rokid/soldier/dao/entity/TaskHistoryExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/com/rokid/soldier/dao/mapper/TaskHistoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-dao/target/classes/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-dao/target/classes/mapping/TaskHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-service/soldier-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-service/soldier-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-start/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-start/soldier-start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-start/soldier-start.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-start/src/main/java/com/SoldierApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-start/src/main/java/com/SoldierApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-start/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-start/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-start/target/classes/com/SoldierApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-start/target/classes/com/SoldierApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier-utils/soldier-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier-utils/soldier-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soldier.iml" beforeDir="false" afterPath="$PROJECT_DIR$/soldier.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="795" />
-  </component>
+  <component name="ProjectId" id="1chvPcyRCMJ3nW73x0AWBdXYetI" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/soldier-service/src/main/java/com.soldier.service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/soldier-service/src/main/java/com.soldier.service" />
+      <recent name="$PROJECT_DIR$/soldier-start/src/main/java/com/soldier/start" />
+      <recent name="$PROJECT_DIR$/soldier-service/src/main/java/com/soldier/service/caseset/service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soldier.start.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/soldier-service/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SoldierApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="soldier-start" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SoldierApplication" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,9 +145,63 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoldierApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="soldier-start" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SoldierApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="683593ee-c89f-4bb6-98a3-478b5678494d" name="Default Changelist" comment="" />
+      <created>1590993616097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590993616097</updated>
+      <workItem from="1590993618791" duration="2373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
