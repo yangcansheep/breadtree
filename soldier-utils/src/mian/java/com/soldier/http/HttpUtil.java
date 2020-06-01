@@ -28,7 +28,7 @@ import java.util.Map;
 @Slf4j
 public class HttpUtil {
 
-    public static final String HTTP = "com/tongdun/aries/http";
+    public static final String HTTP = "com/soldier/http";
     public static final String HTTPS = "https";
     public static final String UTF8 = "utf-8";
 
@@ -170,7 +170,7 @@ public class HttpUtil {
             try {
                 response = httpClient.execute(get);
             } catch (IOException e) {
-                log.error("执行 com.tongdun.aries.http 请求出错", e);
+                log.error("执行http 请求出错", e);
             }
         } else {
             log.error("HttpClient URL ERR:{}", url);
