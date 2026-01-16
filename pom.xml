@@ -31,7 +31,7 @@
         <mysql.version>5.1.46</mysql.version>
         <druid.version>1.1.10</druid.version>
         <pagehelper.version>1.2.5</pagehelper.version>
-        <commons.lang3.version>3.7</commons.lang3.version>
+        <commons.lang3.version>3.18.0</commons.lang3.version>
         <lombok.version>1.18.0</lombok.version>
         <fastjson.version>1.2.52</fastjson.version>
     </properties>
